@@ -99,30 +99,8 @@ footer {
     padding-top: 1rem;
     background-color: #111111;
 }
-#footer-group {
-    width: 50rem;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 1.875rem;
-}
 
-#footer-left-panel {
-    float: left;
-    text-align: left;
-}
 
-#footer-right-panel {
-    float: right;
-    text-align: left;
-}
-
-footer > h2{
-    background-color: #111111;
-    font-size: 130%;
-    font-family: 'Oswald', sans-serif;
-    color: #71d4fc;
-    letter-spacing: 1px;
-}
 
 #social-networks {
     text-align: left;
