@@ -60,6 +60,7 @@ h1 {
     border-bottom: 2px solid #5a5a5a;
 }
 
+/* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
     background-color: #111111;
