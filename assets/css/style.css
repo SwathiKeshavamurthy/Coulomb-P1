@@ -41,6 +41,12 @@ h1 {
     color: #070707;
 }
 
+#menu{
+    font-size:130%;
+    letter-spacing:3px;
+    list-style-type: none;
+}
+
 /* Main content */
 main {
     background-color: lightcoral;
