@@ -57,7 +57,7 @@ h1 {
 }
 
 .active {
-    border-bottom: 2px solid #5a5a5a;
+    border-bottom: 1px solid #5a5a5a;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -94,9 +94,21 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: yellow;
+#social-networks {
+    text-align: center;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: #111111;
 }
+
+#social-networks i {
+    font-size: 180%;
+    padding: 5%;
+    color: #71d4fc;
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
