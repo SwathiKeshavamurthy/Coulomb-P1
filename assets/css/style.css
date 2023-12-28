@@ -15,13 +15,13 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #4a4a4a;
+    color: #bfe6f5;
     font-family: 'Roboto', sans-serif;
 }
 
 /* Header */
 header {
-        background-color: #ffffff;
+        background-color: #111111;
         padding: 0 1rem;
         position: fixed;
         z-index: 99;
@@ -40,19 +40,20 @@ header a {
 h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 10px;
-    color: #070707;
+    letter-spacing: 1px;
+    color: #71d4fc;
 }
 
 #menu{
     font-size:130%;
-    letter-spacing:3px;
+    letter-spacing: 4px;
     list-style-type: none;
 }
 
 #menu>li {
     margin-bottom: 1em;
     font-size: 100%;
+    letter-spacing: 1px;
 }
 
 .active {
@@ -61,11 +62,11 @@ h1 {
 
 nav {
     position: absolute;
-    background-color: #eeeeee;
+    background-color: #111111;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #5a5a5a;
     display: none;
     top: 100%;
 }
@@ -94,4 +95,27 @@ main {
 /* Footer */
 footer {
     background-color: yellow;
+}
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+         #menu {
+             display: flex;
+         }
+
+         #menu>li {
+                     padding-left: 1rem;
+         }
+
+         .nav-toggle-label {
+                     display: none;
+         }
 }
