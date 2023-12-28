@@ -47,6 +47,15 @@ h1 {
     list-style-type: none;
 }
 
+#menu>li {
+    margin-bottom: 2em;
+    font-size: 100%;
+}
+
+.active {
+    border-bottom: 2px solid #5a5a5a;
+}
+
 /* Main content */
 main {
     background-color: lightcoral;
