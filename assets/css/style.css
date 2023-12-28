@@ -99,7 +99,27 @@ footer {
     padding-top: 1rem;
     background-color: #111111;
 }
+#footer-group {
+    width: 50rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1.875rem;
+}
 
+#footer-left-panel {
+    float: left;
+    text-align: left;
+}
+
+#footer-right-panel {
+    float: right;
+    text-align: left;
+}
+
+.footer-text {
+    font-size: 90%;
+    font-weight: 600;
+}
 
 
 #social-networks {
