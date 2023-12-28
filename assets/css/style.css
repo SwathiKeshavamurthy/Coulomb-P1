@@ -108,20 +108,26 @@ footer {
         padding-right: 1rem;
     }
          #menu {
-             display: flex;
+            display: flex;
          }
 
          #menu>li {
-                 padding-left: 1rem;
+            padding-left: 1rem;
          }
 
          .nav-toggle-label {
-                 display: none;
+            display: none;
          }
 
         #logo {
-               font-size: 280%;
-               line-height: 75px;
-               margin: 0 0.5rem;
+            font-size: 280%;
+            line-height: 75px;
+            margin: 0 0.5rem;
+        }
+
+        /* Main content */
+         main {
+         /* Push main content down to accommodate larger header */
+        margin-top: 79px;
         }
 }
