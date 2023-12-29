@@ -40,7 +40,7 @@ header a {
 h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: #71d4fc;
 }
 
@@ -95,10 +95,9 @@ main {
 
 /* Footer */
 footer {
-    height: 10rem;
+    height: 14rem;
     padding-top: 1rem;
     background-color: #111111;
-    border-top: 1px solid #faf9f9;
 }
 
 #footer-group {
@@ -112,7 +111,6 @@ footer {
     float: left;
     text-align: left;
     text-decoration: none;
-    width:50%
     
 }
 
@@ -123,7 +121,7 @@ footer {
 }
 
 .footer-text {
-    font-size: 110%;
+    font-size:110%;
     font-weight: 600;
     text-decoration: none;
     text-align: center;
@@ -160,6 +158,13 @@ footer {
     color: #71d4fc;
 }
 
+#disclaimer {
+    clear: both;
+    text-align: center;
+    padding: 1.875rem;
+    font-size: small;
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -192,7 +197,7 @@ footer {
         /* Main content */
          main {
          /* Push main content down to accommodate larger header */
-        margin-top: 89px;
+        margin-top: 80px;
         }
 }
 
