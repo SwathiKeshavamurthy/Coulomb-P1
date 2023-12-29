@@ -95,12 +95,14 @@ main {
 
 /* Footer */
 footer {
-    height: 14.1rem;
+    height: 10rem;
     padding-top: 1rem;
     background-color: #111111;
+    border-top: 1px solid #faf9f9;
 }
+
 #footer-group {
-    width: 50rem;
+    width: 75rem;
     margin: 0 auto;
     text-align: center;
     padding-top: 1.875rem;
@@ -109,31 +111,38 @@ footer {
 #footer-left-panel {
     float: left;
     text-align: left;
+    text-decoration: none;
+    width:50%
+    
 }
 
 #footer-right-panel {
     float: right;
     text-align: left;
+    text-decoration: none;
 }
 
 .footer-text {
-    font-size: 90%;
+    font-size: 110%;
     font-weight: 600;
+    text-decoration: none;
+    text-align: center;
 }
 
-
 #social-networks {
-    text-align: left;
+    text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-around;
     list-style-type: none;
     background-color: #111111;
+    
 }
+
 #social-networks i {
     font-size: 180%;
     padding: 5%;
-    color: #71d4fc;
+    color: #71d4fc;   
 }
 
 #download-app {
@@ -142,7 +151,7 @@ footer {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    background-color: #111111;
+    background-color: #111111; 
 }
 
 #download-app i{
