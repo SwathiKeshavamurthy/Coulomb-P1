@@ -164,12 +164,6 @@ footer {
     padding: 1.875rem;
     font-size: x-small;
 }
-
-/* Media query: tablets(768px) */
-@media screen and (width: 768px) {
-
-    
-}
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     
@@ -215,24 +209,5 @@ footer {
                      width: 100%;
                      background: url("../images/hero-image.jpg") no-repeat center center/cover;
                  }
-}
-/* Large devices (desktops, 1024px and up) */
-@media screen and (min-width: 1024px) {
-    /* Hero section */
-#hero {
-    height: 1200px;
-    width: 100%;
-    background: url("../images/hero-image.jpg") no-repeat center center/cover;
-}
-}
-/* Largest devices (2560px and up) */
-@media screen and (min-width: 2560px) {
-
-    /* Hero section */
-    #hero {
-        height: 2500px;
-        width: 100%;
-        background: url("../images/hero-image.jpg") no-repeat center center/cover;
-    }
 }
 
