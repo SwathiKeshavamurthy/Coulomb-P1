@@ -221,13 +221,12 @@ footer>h3 {
 
 /* styling for the contact form */
 #enquire-contact-section {
-    background-image: url("../images/enquire-image.jpg");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
+    background: url("../images/enquire-image.png") no-repeat center center/cover;
     width: 100%;
     overflow: hidden;
     min-height: 56.25rem;
+    height: 650px;
+    width: 100%;
 }
 
 #enquire-panel-container {
