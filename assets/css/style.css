@@ -1,10 +1,21 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 :root {
     --buttonlightblue: #1fafe7;
     --buttonblue: #55c4f0;
     --black: #0a0a0a;
+    --darkgrey: #141414;
+    --offwhite: #fafafa;
+    --white: #fff;
+    --panelorange: rgba(243, 184, 142, 0.9);
+    --midgrey: #3a3a3a;
+    --brightorange: #f57309;
+    --buttonorange: #ee901d;
+    --palepink: #f5bccf;
+    --paleorange: #edbd59;
+    --palegreen: #cde59b;
+    --paleblue: #baeade;
 }
 
 /* Asterisk wildcard selector to override default styles added by the browser */
@@ -21,20 +32,19 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #bfe6f5;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     letter-spacing: 2px;
     color: #71d4fc;
 }
 
 h2 {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     letter-spacing: 1px;
     color: #0d0d0e;
-    ;
 }
 
 /* Header */
@@ -82,8 +92,8 @@ header a {
     box-shadow: 0.3rem 0.6rem #76d8f7e5;
     font-weight: bold;
     margin-top: 1rem;
-    position:relative;
-    left:40px;
+    position: relative;
+    left: 40px;
 }
 
 .button:hover {
@@ -124,13 +134,30 @@ main {
 }
 
 /* Hero section */
+#hero-outer {
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
 
 #hero-image {
     height: 650px;
     width: 100%;
-    background: url("../images/hero-image.jpg") no-repeat center center/cover;
-    overflow: hidden;
-    position: relative;
+    background: url("../images/hero-image.webp") no-repeat center center;
+    /* animates fade-in effect on loading page */
+    animation: hero-fade-in 5s;
+}
+
+/* creates the fade-in for the hero image */
+@keyframes hero-fade-in {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 2;
+    }
 }
 
 #cover-text {
@@ -153,7 +180,7 @@ footer {
 }
 
 footer>h3 {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     letter-spacing: 1px;
     color: #71d4fc;
 }
@@ -168,7 +195,6 @@ footer>h3 {
     float: left;
     text-align: left;
     text-decoration: none;
-
 }
 
 #footer-right-panel {
@@ -191,7 +217,6 @@ footer>h3 {
     justify-content: space-around;
     list-style-type: none;
     background-color: #111111;
-
 }
 
 #social-networks i {
@@ -224,18 +249,20 @@ footer>h3 {
 
 /* styling for the contact form */
 #enquire-contact-section {
-    background: url("../images/enquire-image.png") no-repeat center center/cover;
-    width: 100%;
+    background: url("../images/enquire-image.png") no-repeat center center;
+    width: 25%;
+    float: center;
     overflow: hidden;
     min-height: 56.25rem;
-    height: 650px;
-    width: 100%;
+
+
 }
 
 #enquire-panel-container {
     width: 75rem;
     margin: 4.6875rem auto;
 }
+
 
 .enquire-panel {
     text-align: left;
@@ -319,15 +346,15 @@ footer>h3 {
         font-size: 80%;
         padding-left: 20px;
     }
-    .button { 
-        position:relative;
+
+    .button {
+        position: relative;
         left: 120px;
     }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-
     #menu a:hover {
         border-bottom: 1px solid #ffffff;
     }
@@ -339,7 +366,6 @@ footer>h3 {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-
     }
 
     #menu {
