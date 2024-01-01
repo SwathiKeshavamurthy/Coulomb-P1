@@ -16,6 +16,7 @@
     --paleorange: #edbd59;
     --palegreen: #cde59b;
     --paleblue: #baeade;
+    --transparentblack: #00000000
 }
 
 /* Asterisk wildcard selector to override default styles added by the browser */
@@ -127,7 +128,7 @@ nav {
 
 /* Main content */
 main {
-    background-color: rgb(245, 240, 240);
+    background-color: rgb(194, 246, 250);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 49px;
@@ -144,7 +145,7 @@ main {
 #hero-image {
     height: 650px;
     width: 100%;
-    background: url("../images/hero-image.webp") no-repeat center center;
+    background: url("../images/hero-image.jpg") no-repeat center center;
     /* animates fade-in effect on loading page */
     animation: hero-fade-in 5s;
 }
@@ -249,27 +250,29 @@ footer>h3 {
 
 /* styling for the contact form */
 #enquire-contact-section {
-    background: url("../images/enquire-image.png") no-repeat center center;
-    width: 25%;
-    float: center;
+    background-image: url("../images/enquire-image.jpeg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    width: 100%;
     overflow: hidden;
-    min-height: 56.25rem;
-
-
+    min-height: 850px;
 }
 
 #enquire-panel-container {
-    width: 75rem;
-    margin: 4.6875rem auto;
+    width: 1000px;
+    margin: 75 auto;
+    margin-top:50px;
+    margin-left:50px;
 }
 
 
 .enquire-panel {
     text-align: left;
-    font-weight: 600;
-    letter-spacing: 0.06875rem;
-    font-size: 110%;
-    background-color: var(--panelorange);
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 100%;
+    background-color: var(--black);
     border-radius: 10px;
     padding: 1.875rem;
     height: 40.5rem;
@@ -279,15 +282,16 @@ footer>h3 {
     text-transform: uppercase;
     font-size: 180%;
     padding-bottom: 1.25rem;
+    color:#71d4fc;
 }
 
 #enquire-left {
-    width: 25rem;
+    width: 33%;
     float: left;
 }
 
 #contact-right {
-    width: 37.5rem;
+    width: 33%;
     float: right;
 }
 
