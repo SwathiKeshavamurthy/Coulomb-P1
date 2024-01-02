@@ -376,10 +376,9 @@ footer>h3 {
     background: url("../images/aboutus-image.jpeg") no-repeat top center/cover;
     width:200vw;
     height:50vw;
-    margin-bottom: 20px;
-    /* Makes the square image into a circle */
-        
+    margin-bottom: 20px;    
 }
+
 .uses-box{
             margin-left: 3%;
             margin-right: 3%;
@@ -407,12 +406,6 @@ footer>h3 {
         width: 5.75rem;
         height: 41.25rem;
     }
-    /*Aboutus page*/
-                img {
-                    max-width: 100%;
-                    max-height: 100%;
-                }
-
 }
 
 /* For very small screen sizes from 450px wide and down */
