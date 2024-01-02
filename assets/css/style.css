@@ -351,7 +351,7 @@ footer>h3 {
 
 #aboutus h2 {
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
     text-decoration: underline;
 }
 
@@ -364,6 +364,12 @@ footer>h3 {
     font-family: "Oswald", sans-serif;
     font-weight: 500;
 }
+
+#aboutus-image{
+   text-align: center;
+}
+
+
 
 /* For smallest screen sizes from px wide and down */
 @media screen and (max-width: 320px) {
