@@ -342,7 +342,8 @@ footer>h3 {
     font-size: x-large;
     font-weight: 500;
 }
-/*About us styling*/
+/*About us page styling*/
+
 #aboutus{ 
     padding-top: 10px;
     padding-left: 50px;
@@ -366,10 +367,36 @@ footer>h3 {
 }
 
 #aboutus-image{
-   text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+#square-image{
+    background: url("../images/aboutus-image.jpeg") no-repeat top center/cover;
+    width:200vw;
+    height:50vw;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+        
+}
+.uses-box{
+            margin-left: 3%;
+            margin-right: 3%;
+            text-align:center
 
+}
+
+.uses-content {
+    display:inline-block;
+    vertical-align: top;
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+}
 
 /* For smallest screen sizes from px wide and down */
 @media screen and (max-width: 320px) {
@@ -380,6 +407,12 @@ footer>h3 {
         width: 5.75rem;
         height: 41.25rem;
     }
+    /*Aboutus page*/
+                img {
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+
 }
 
 /* For very small screen sizes from 450px wide and down */
@@ -417,6 +450,25 @@ footer>h3 {
         position: relative;
         left: 120px;
     }
+/* Aboutus page unordered list alignment*/
+        .uses-box {
+            margin-left: 3%;
+            margin-right: 3%;
+            text-align: center
+        }
+    
+        .uses-content {
+            display: inline-block;
+            vertical-align: top;
+            color: black;
+            text-align: left;
+            font-size: 20px;
+            letter-spacing: 1px;
+            font-family: "Oswald", sans-serif;
+            font-weight: 500;
+            padding-right: 25px;
+        
+        }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -466,6 +518,25 @@ footer>h3 {
         overflow: hidden;
         position: relative;
     }
+        /* Aboutus page unordered list alignment*/
+        .uses-box {
+            margin-left: 3%;
+            margin-right: 3%
+            text-align: center
+        }
+    
+        .uses-content {
+            display: inline-block;
+            vertical-align: top;
+            color: black;
+            text-align: left;
+            font-size: 20px;
+            letter-spacing: 1px;
+            font-family: "Oswald", sans-serif;
+            font-weight: 500;
+            padding-left:100px;
+            
+        }
 }
 
 /* For larger to medium screens size from 1300px wide and down */
