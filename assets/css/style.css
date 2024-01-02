@@ -8,15 +8,7 @@
     --darkgrey: #141414;
     --offwhite: #fafafa;
     --white: #fff;
-    --panelorange: rgba(243, 184, 142, 0.9);
     --midgrey: #3a3a3a;
-    --brightorange: #f57309;
-    --buttonorange: #ee901d;
-    --palepink: #f5bccf;
-    --paleorange: #edbd59;
-    --palegreen: #cde59b;
-    --paleblue: #baeade;
-    --transparentblack: #00000000
 }
 
 /* Asterisk wildcard selector to override default styles added by the browser */
@@ -343,15 +335,23 @@ footer>h3 {
     scroll-behavior: unset;
     margin: 0;
 }
+/*Thank you section style*/
+.thankyou{
+    font-family: "Roboto", sans-serif; ;
+    color: black;
+    font-size: x-large;
+    font-weight: 500;
+
+}
 
 /* For smallest screen sizes from px wide and down */
 @media screen and (max-width: 320px) {
 
     #enquire-left,
     #contact-right {
-        width: 7.75rem;
+
+        width: 5.75rem;
         height: 41.25rem;
-        padding: 2rem 1.5rem;
     }
 }
 
