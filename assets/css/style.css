@@ -273,55 +273,35 @@ main>h2 {
 
 /*Products page styling*/
 
-#products-style p {
-    text-align: left;
-        font-size: 20px;
-        letter-spacing: 1px;
-        color: black;
-        font-family: "Oswald", sans-serif;
-        font-weight: 500;
-        padding: 1em;
-        line-height: 1.25em;
-
-}
-
-#products p {
-    text-align: left;
-    font-size: 20px;
-    letter-spacing: 1px;
-    color: black;
-    font-family: "Oswald", sans-serif;
-    font-weight: 500;
-    padding: 1em;
-    line-height: 1.25em;
-}
-
-#all-products h2 {
-    text-align: center;
-    font-size: 30px;
-    text-decoration: underline;
-}
-
-#products>img {
-    border-radius: 20px;
-    text-align: center;
-    width: 100%;
-    height: auto;
-}
-
-#products {
+#all-products {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-evenly;
+    justify-content: center;
+    text-align: center;
 }
 
-#all-products {
-    align-items: center;
-    text-align: left;
-    padding: 2%;
-    width: 25%;
+.p-text{
+    font-family: "Oswald", sans-serif;
+        letter-spacing: 0.5px;
+        color: #0d0d0e;
+        font-size: large;
+        font-weight: 500;
+        text-align: center;
+        margin: 2em;
+        padding: 1em;
+        line-height: 1.25em;
+}
+
+.products {
+    margin: 4%;
+}
+
+/* Products images */ 
+.product>img {
+    border-radius: 20px;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
 }
 
 /*About us page styling*/
@@ -572,8 +552,9 @@ footer>h3 {
     /* Aboutus page unordered list alignment*/
     .uses-box {
         margin-left: 3%;
-        margin-right: 3% 
+        margin-right: 3%;
         text-align: center;
+        
     }
 
     .uses-content {
@@ -592,6 +573,7 @@ footer>h3 {
 
 /* For larger to medium screens size from 1300px wide and down */
 @media screen and (max-width: 1300px) {
+
     #enquire-contact-panel-container {
         width: 100%;
         display: block;
@@ -605,5 +587,33 @@ footer>h3 {
     #contact-right {
         margin: 4.6875rem auto;
         float: none;
+    }
+}
+
+/* For small screen sizes from 576px wide and down */
+
+@media screen and (max-width: 576px) {
+    #all-products {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .products>img {
+            width: 50vw;
+            height: 50%;
+        }
+    }
+
+/* For tablets and desktop screen sizes from 425px wide and up */
+    
+ @media screen and (max-width: 1024px) {
+     #all-products {
+         display: flex;
+        flex-direction: column;
+    }
+    
+    .products>img {
+        width: 30vw;
+        height: 50%;
     }
 }
