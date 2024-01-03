@@ -271,7 +271,7 @@ main>h2 {
 }
 /*Products page styling*/
 #products p{
-        text-align: center;
+        text-align: left;
         font-size: 20px;
         letter-spacing: 1px;
         color: black;
@@ -282,6 +282,63 @@ main>h2 {
     text-align: center;
     font-size: 30px;
     text-decoration: underline;
+}
+
+#products {
+    margin: 25px 0;
+}
+
+#products {
+    padding: 15px 10px;
+    border-radius: 15px;
+    box-shadow: 20px 0 10px 1px rgba(37, 14, 214, 0.18);
+    text-align: center;
+    margin: 15px 15px;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+#products .products-card .img-box img
+ {
+    border-radius: 5px;
+    z-index: -1;
+    position: relative;
+}
+.products-card .img-box {
+    position: relative;
+    overflow: hidden;
+}
+.container {
+    max-width: 385px;
+}
+.row {
+    flex-direction: column !important;
+}
+.row-3 {
+    width: 100%;
+}
+.row-3-card {
+    margin: 15px 0 !important;
+}
+.products-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--fully-black);
+    opacity: 0.6;
+    width: 100%;
+    height: 90%;
+    border-radius: 5px;
+}
+.products-card:hover .img-box .charger-image {
+    transform: scale(1.2);
+    display: block;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
 }
 
 /*About us page styling*/
