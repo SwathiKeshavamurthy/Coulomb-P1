@@ -316,8 +316,10 @@ main>h2 {
 .row {
     flex-direction: column !important;
 }
-.row-3 {
+.all-products{
     width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 .row-3-card {
     margin: 15px 0 !important;
