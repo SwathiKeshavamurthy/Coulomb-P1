@@ -417,13 +417,27 @@ footer>h3 {
     font-size: x-small;
 }
 
+
+/*Media Queries*/
+
+/* For smallest screen sizes from px wide */
+@media screen and (max-width: 320px) {
+
+    #enquire-left,
+    #contact-right {
+
+        max-width: 19rem;
+
+    }
+}
+
 /* For smallest screen sizes from px wide and down */
 @media screen and (max-width: 375px) {
 
     #enquire-left,
     #contact-right {
 
-        max-width: 19rem;
+        width: 17rem;
         height: 42.25rem;
 
     }
@@ -434,20 +448,13 @@ footer>h3 {
 
     #enquire-left,
     #contact-right {
-        width: 15.75rem;
+
+        width: 22.5rem;
         height: 41.25rem;
         padding: 2rem 1.5rem;
     }
 }
 
-/* For small screen sizes from 768px wide and down */
-@media screen and (max-width: 1024px) {
-
-    #enquire-left,
-    #contact-right {
-        width: 30.875rem;
-    }
-}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -484,6 +491,13 @@ footer>h3 {
         padding-right: 25px;
 
     }
+        #enquire-left,
+        #contact-right {
+    
+            width: 30.5rem;
+            height: 41.25rem;
+            padding: 2rem 1.5rem;
+        }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -576,6 +590,7 @@ footer>h3 {
 /* For small screen, tablets and laptops  */
 
 @media screen and (max-width: 1440px) {
+    
     #all-products {
         display: flex;
         flex-direction: column;
@@ -585,4 +600,22 @@ footer>h3 {
         width: 50vw;
         height: 50%;
     }
+}
+
+/* For larger screens   */
+@media screen and (min-width: 1300px) {
+
+    #enquire-left,
+    #contact-right {
+        width: 30.875rem;
+    }
+}
+
+/* For 4k laptops  */
+
+@media screen and (min-width: 1450px) {
+#hero-image {
+    height: 150rem;
+    width: 100%;
+
 }
