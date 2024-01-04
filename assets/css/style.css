@@ -137,7 +137,7 @@ main>h2 {
 #hero-image {
     height: 650px;
     width: 100%;
-    background: url("../images/hero-image.jpg") no-repeat center center/cover;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
     overflow: hidden;
     position: relative;
 }
@@ -156,120 +156,6 @@ main>h2 {
     padding-right: 10px;
 }
 
-/* styling for the Enquire form */
-#enquire-contact-section {
-    background-image: url("../images/enquire-image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
-    min-height: 56.25rem;
-}
-
-#enquire-contact-panel-container {
-    width: 75rem;
-    margin: 4.6875rem auto;
-}
-
-.enquire-panel {
-    text-align: left;
-    font-weight: 600;
-    letter-spacing: 1px;
-    font-size: 120%;
-    background-color: var(--black);
-    border-radius: 10px;
-    padding: 1.875rem;
-    height: 40.5rem;
-}
-
-.enquire-panel h2 {
-    text-transform: uppercase;
-    font-size: 180%;
-    padding-bottom: 1.25rem;
-    color: #71d4fc;
-}
-
-#enquire-left {
-    width: 25rem;
-    float: left;
-}
-
-.contact-panel h2 {
-    text-transform: uppercase;
-    font-size: 180%;
-    padding-bottom: 1.25rem;
-    color: #71d4fc;
-}
-
-.contact-panel {
-    text-align: left;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-size: 100%;
-    background-color: var(--black);
-    border-radius: 10px;
-    padding: 1.875rem;
-    height: 40.5rem;
-}
-
-#contact-right {
-    width: 35%;
-    float: right;
-}
-
-.text-input {
-    background: rgba(250, 248, 248, 0.733);
-    font-family: Roboto, sans-serif;
-    font-size: 100%;
-    font-weight: 600;
-    width: 100%;
-    margin: 0.3125rem 0 1.25rem 0;
-    border: 0.0625rem solid var(--darkgrey);
-    border-radius: 2px;
-    padding: 0.3125rem;
-    letter-spacing: 0.06875rem;
-}
-
-.text-input:hover {
-    border-color: var(--offwhite);
-}
-
-.text-input-line {
-    height: 1.56rem;
-}
-
-.text-input-box {
-    height: 9.375rem;
-    resize: none;
-}
-
-.radio-buttons {
-    margin-right: 0.625rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-#location-map {
-    width: 100%;
-    height: 23.125rem;
-}
-
-#location-iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-    scroll-behavior: unset;
-    margin: 0;
-}
-
-/*Thank you section style*/
-.thankyou {
-    font-family: "Roboto", sans-serif;
-    color: rgb(11, 11, 204);
-    font-size: x-large;
-    font-weight: 500;
-}
 
 /*Products page styling*/
 
@@ -329,13 +215,13 @@ main>h2 {
 }
 
 #aboutus-image {
+    background: url("../images/aboutus-image.webp") no-repeat top center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#square-image {
-    background: url("../images/aboutus-image.jpeg") no-repeat top center/cover;
+.square-image {
     width: 200vw;
     height: 50vw;
     margin-bottom: 20px;
@@ -355,6 +241,110 @@ main>h2 {
     font-size: 20px;
     letter-spacing: 1px;
     font-family: "Oswald", sans-serif;
+    font-weight: 500;
+}
+
+/* styling for the Enquire form */
+
+#enquirenow-image {
+    background: url("../images/enquire-image.webp") no-repeat top center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square-image {
+    width: 200vw;
+    height: 50vw;
+    margin-bottom: 20px;
+}
+
+#enquire-contact-panel-container {
+    width: 75rem;
+    margin: 4.6875rem auto;
+}
+
+.enquire-panel,
+.contact-panel {
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 110%;
+    background-color: var(--black);
+    border-radius: 10px;
+    padding: 1.875rem;
+    height: 40.5rem;
+    margin-bottom: 20px;
+}
+
+.enquire-panel h2,
+.contact-panel h2 {
+    text-transform: uppercase;
+    font-size: 180%;
+    padding-bottom: 1.25rem;
+    color: #71d4fc;
+}
+
+#enquire-left {
+    width: 25rem;
+    float: left;
+}
+
+#contact-right {
+    width: 35%;
+    float: right;
+}
+
+.text-input {
+    background: rgba(250, 248, 248, 0.733);
+    font-family: Roboto, sans-serif;
+    font-size: 100%;
+    font-weight: 600;
+    width: 100%;
+    margin: 0.3125rem 0 1.25rem 0;
+    border: 0.0625rem solid var(--darkgrey);
+    border-radius: 2px;
+    padding: 0.3125rem;
+    letter-spacing: 0.06875rem;
+}
+
+.text-input:hover {
+    border-color: var(--offwhite);
+}
+
+.text-input-line {
+    height: 1.56rem;
+}
+
+.text-input-box {
+    height: 9.375rem;
+    resize: none;
+}
+
+.radio-buttons {
+    margin-right: 0.625rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#location-map {
+    width: 100%;
+    height: 23.125rem;
+}
+
+#location-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    scroll-behavior: unset;
+    margin: 0;
+}
+
+/*Thank you section style*/
+.thankyou {
+    font-family: "Roboto", sans-serif;
+    color: rgb(11, 11, 204);
+    font-size: x-large;
     font-weight: 500;
 }
 
