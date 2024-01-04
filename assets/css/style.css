@@ -395,7 +395,8 @@ footer>h3 {
     background-color: #111111;
 }
 
-#social-networks i, #download-app i {
+#social-networks i,
+#download-app i {
     font-size: 28.8px;
     padding: 0.8px;
     color: #71d4fc;
@@ -491,13 +492,14 @@ footer>h3 {
         padding-right: 25px;
 
     }
-        #enquire-left,
-        #contact-right {
-    
-            width: 30.5rem;
-            height: 41.25rem;
-            padding: 2rem 1.5rem;
-        }
+
+    #enquire-left,
+    #contact-right {
+
+        width: 30.5rem;
+        height: 41.25rem;
+        padding: 2rem 1.5rem;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -569,7 +571,7 @@ footer>h3 {
 }
 
 /* For larger to medium screens size from 1300px wide and down */
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1250px) {
 
     #enquire-contact-panel-container {
         width: 100%;
@@ -590,7 +592,7 @@ footer>h3 {
 /* For small screen, tablets and laptops  */
 
 @media screen and (max-width: 1440px) {
-    
+
     #all-products {
         display: flex;
         flex-direction: column;
@@ -614,8 +616,8 @@ footer>h3 {
 /* For 4k laptops  */
 
 @media screen and (min-width: 1450px) {
-#hero-image {
-    height: 150rem;
-    width: 100%;
-
+    #hero-image {
+        height: 150rem;
+        width: 100%;
+    }
 }
