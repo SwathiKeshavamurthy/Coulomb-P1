@@ -16,6 +16,18 @@
   - [Fonts](#fonts)
   - [Color Scheme and Colors](#color-scheme-and-colors)
   - [Images](#images)
+  - [Icons](#icons)
+  - [Text](#text)
+- [Features](#features)
+  - [Existing Features](#existing-features)
+    - [Navigation Bar](#navigation-bar)
+    - [Footer](#footer)
+    - [Hero Image](#hero-image)
+    - [Home Page](#home-page)
+    - [AboutUS Page](#aboutus-page)
+    - [Products](#products)
+    - [Enquire Now](#enquire-now)
+    - [Thankyou](#thankyou)
 
 
 # Introduction
@@ -85,11 +97,11 @@ The layout is kept uncomplicated and tidy and has been used minimalist colour sc
 
 ## Wireframes
 
-Here are the first wireframes from the design stage. Every design element was put into practice.
+Here are the first wireframes from the design stage. Every design element was put into practice with the help of [Balsamiq Wireframes](https://balsamiq.com/wireframes/).
 
 ## Fonts
 
-Google Fonts were used to import the fonts. Fonts chosen were Roboto for the headings/logo and Oswald for the body. Sans Serif was chosen as the backup font.
+[Google Fonts](https://fonts.google.com/) were used to import the fonts. Fonts chosen were Roboto for the headings/logo and Oswald for the body. Sans Serif was chosen as the backup font.
 
 ## Color Scheme and Colors
 
@@ -100,6 +112,76 @@ The colour theme is based around the colour of the company logo which is lightbl
 ## Images
 
 Images were downloaded from Pexels, Unsplash and istock, and resized for the purpose of this website. The owners are credited in the Credits section.
+
+## Icons
+
+Icons were taken from Fontawesome website [Fontawesome](https://fontawesome.com/) and resized using [Favicon.io](https://favicon.io/).
+
+## Text
+
+Most of the text is written  by the author.
+Some text is taken from Google and is rephrased by the author.
+
+# Features
+
+## Existing Features
+
+### Navigation Bar
+
+- The navigation bar is visible on all pages.
+- The company logo is located on the left side of the navigation bar, and as the user would expect, it links to the home page from every page on the website.
+- To let users know where they are on the website, the page link highlights when the page is active.
+
+### Footer
+
+- The footer is visible on all pages so that social media and download app links are always available to the user.
+- The left side has the 5-social media links lined in a horizontal row.
+- The right side are 2-links for app-download.
+- Below all these there is a disclaimer for copyright.
+
+### Hero Image
+
+- Home page features a hero image with text overlay and link for Products page.
+- The same Hero image is also visible on the Thankyou page.
+  
+### Home Page
+
+- The hero image on the landing page has a brilliant, magnificent appearance to draw in users as soon as they land on the website. -
+- In order to elicit a favorable emotional response and motivate the user to stay on the website, the hero image also includes the name of the company and a slogan.
+- This page provides a brief overview of the company.
+- In addition, this page has a navigation bar that leads to all other pages and a footer section with links to social media and app downloads.
+
+### AboutUS Page
+
+- A slogan at the start of the page.
+- There are two sections on the "About" page. The first contains an introduction and general company history information.
+ Short paragraphs and concise information are used throughout.
+- It has an image to catch users' attention.
+- Additionally, the uses of the company's developed products are covered in the second section. For this reason, the COULOMB company outperforms all others.
+- In addition, this page has a navigation bar that leads to all other pages and a footer section with links to social media and app downloads.
+
+### Products
+
+- A slogan at the start of the page.
+- Three products are available on the Products page in a row with images, that collapses to one column at the size of a mobile phone screen.
+- Additionally, the page has a direct "Enquire Now" link that takes users to the form where they can fill out a request for more information about the products.
+- In addition, this page has a navigation bar that leads to all other pages and a footer section with links to social media and app downloads.
+
+### Enquire Now
+
+- A slogan and image at the start of the page.
+- The Enquire Now page has 2 section, 1st section features a form for the user to full name, email address, products field set with 3 radio button options and a message (optional) with a submit button at the end.
+- 2nd section contains the Contact us details with company name, address, contact number and email. Below this there is iframe map for location.
+- In addition, this page has a navigation bar that leads to all other pages and a footer section with links to social media and app downloads.
+
+### Thankyou
+
+- The hero image on the thankyou page has a brilliant, magnificent appearance to draw in users as soon as they land on the website. 
+- In order to elicit a favorable emotional response and motivate the user to stay on the website, the hero image also includes the name of the company and a slogan.
+- This displays a message after submitting the enquire form.
+- In addition, this page has a navigation bar that leads to all other pages and a footer section with links to social media and app downloads.
+
+
 
 
 
