@@ -29,6 +29,10 @@
     - [Enquire Now](#enquire-now)
     - [Thank You](#thank-you)
   - [Future Features](#future-features)
+- [Languages Used](#languages-used)
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+  - [Validation](#validation)
 
 
 # Introduction
@@ -185,3 +189,37 @@ Some text is taken from Google and is rephrased by the author.
 - Electric charger parts replacements facility.
 - Customer reviews page and company future products plans blog page.
 - Checkbox to subscribe to a newsletter for information about events and offers as the business expands.
+
+# Languages Used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) (Hypertext Markup Language) or HTML, was used to design the basic website
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) 
+(Cascading Style Sheets) or CSS, was used to style the website and improve its user interface.
+
+# Technologies Used
+
+[Balsamiq](https://balsamiq.com/) was used to create the wireframes.
+
+[Google Fonts](https://fonts.google.com) was used for the fonts: Roboto and Oswald.
+
+[Fontawesome](https://fontawesome.com) was used for the social media icons, map link and the arrow back to top.
+
+[Favicon](https://favicon.io/) was used to resize title icon for all devices.
+
+[Google maps](https://www.google.com/maps) was used to provide a map link.
+
+[Convert-to-webp](https://image.online-convert.com/convert-to-webp) was used to convert images to webp format.
+
+[px-to-rem](https://nekocalc.com/px-to-rem-converter) was used to convert px to rem measuremenets.
+
+[Resize-images](https://www.simpleimageresizer.com/resize/webp) was used to resize the images.
+
+[Am I Responsive](https://ui.dev/amiresponsive) was used to get a responsive image for README.
+
+# Testing
+
+## Validation
+
+ - [HTML Validator](https://validator.w3.org/) was run at several points during the project and small syntax errors identified were fixed. At the final stage no errors were found. But a warning for Google Font imports was found.
+- [CSS Validator](https://validator.w3.org/) was run several times during the project and small syntax errors like brackets closure which were corrected. At the time of submission the CSS code successfully passed the validator with no errors.
+- [Lighthouse in Chrome Developer Tools](https://en.wikipedia.org/wiki/Google_Lighthouse) was used to check performance.
