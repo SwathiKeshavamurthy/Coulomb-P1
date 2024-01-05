@@ -24,10 +24,11 @@
     - [Footer](#footer)
     - [Hero Image](#hero-image)
     - [Home Page](#home-page)
-    - [AboutUS Page](#aboutus-page)
+    - [About Us Page](#about-us-page)
     - [Products](#products)
     - [Enquire Now](#enquire-now)
-    - [Thankyou](#thankyou)
+    - [Thank You](#thank-you)
+  - [Future Features](#future-features)
 
 
 # Introduction
@@ -149,39 +150,38 @@ Some text is taken from Google and is rephrased by the author.
 - The hero image on the landing page has a brilliant, magnificent appearance to draw in users as soon as they land on the website. -
 - In order to elicit a favorable emotional response and motivate the user to stay on the website, the hero image also includes the name of the company and a slogan.
 - This page provides a brief overview of the company.
-- In addition, this page has a navigation bar that leads to all other pages and a footer section with links to social media and app downloads.
 
-### AboutUS Page
+### About Us Page
 
 - A slogan at the start of the page.
 - There are two sections on the "About" page. The first contains an introduction and general company history information.
  Short paragraphs and concise information are used throughout.
 - It has an image to catch users' attention.
 - Additionally, the uses of the company's developed products are covered in the second section. For this reason, the COULOMB company outperforms all others.
-- In addition, this page has a navigation bar that leads to all other pages and a footer section with links to social media and app downloads.
 
 ### Products
 
 - A slogan at the start of the page.
 - Three products are available on the Products page in a row with images, that collapses to one column at the size of a mobile phone screen.
 - Additionally, the page has a direct "Enquire Now" link that takes users to the form where they can fill out a request for more information about the products.
-- In addition, this page has a navigation bar that leads to all other pages and a footer section with links to social media and app downloads.
 
 ### Enquire Now
 
 - A slogan and image at the start of the page.
 - The Enquire Now page has 2 section, 1st section features a form for the user to full name, email address, products field set with 3 radio button options and a message (optional) with a submit button at the end.
 - 2nd section contains the Contact us details with company name, address, contact number and email. Below this there is iframe map for location.
-- In addition, this page has a navigation bar that leads to all other pages and a footer section with links to social media and app downloads.
 
-### Thankyou
+### Thank You
 
 - The hero image on the thankyou page has a brilliant, magnificent appearance to draw in users as soon as they land on the website. 
 - In order to elicit a favorable emotional response and motivate the user to stay on the website, the hero image also includes the name of the company and a slogan.
 - This displays a message after submitting the enquire form.
 - In addition, this page has a navigation bar that leads to all other pages and a footer section with links to social media and app downloads.
 
+## Future Features
 
-
-
-
+- A payment facility for users to order and pay for their product.
+- Links to customer service and direct installation.
+- Electric charger parts replacements facility.
+- Customer reviews page and company future products plans blog page.
+- Checkbox to subscribe to a newsletter for information about events and offers as the business expands.
