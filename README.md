@@ -1,19 +1,17 @@
-# COULOMB ![alt-text](documentation/favicon-32x32.png) ev
+# <h1 align="center">COULOMB ![alt-text](documentation/favicon-32x32.png) ev</h1>
 
-![alt-text](documentation/amiresponsive.JPG)
-
-# Table Of Contents
-
+# Table of Contents
 - [COULOMB  ev](#coulomb--ev)
-- [Table Of Contents](#table-of-contents)
+- [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
-- [User Goals and Stories](#user-goals-and-stories)
+- [User Goals and Stories(UX)](#user-goals-and-storiesux)
   - [Website Owner Goals](#website-owner-goals)
   - [User Goals](#user-goals)
   - [User Stories](#user-stories)
     - [As a company owner](#as-a-company-owner)
-    - [As a general user of the website/customer I want to](#as-a-general-user-of-the-websitecustomer-i-want-to)
+    - [As a general user of the website/customer](#as-a-general-user-of-the-websitecustomer)
     - [As a new user I want to](#as-a-new-user-i-want-to)
+
 
 # Introduction
 
@@ -23,7 +21,7 @@ It is one of the fastest HOME CHARGING appliances to recharge your electric vehi
 The website which specialises the purpose of the website is to establish an online presence for the company as the main source of information for customers about the line-of-work.
 The website targets people who want to get some information about Electric chargers for Electric Vehicles and purchase.  The website showcases the products available to the user and provides the information necessary to make a purchase from the company.
 
-# User Goals and Stories
+# User Goals and Stories(UX)
 
 ## Website Owner Goals
 
@@ -53,13 +51,13 @@ As the website and company owner I want to
 - to provide a method of contact for customers to enquire about the products or ask questions
 - to provide some introductory information about the company website
 
-### As a general user of the website/customer I want to
+### As a general user of the website/customer 
 
-* find out the location, opening hours and contact information
+- find out the location, opening hours and contact information
 - information and uses of the products 
 - view all the products and relevant information about each item
 
 ### As a new user I want to
 
-* find out what is different about the company products compared to others.
-* details of company offers like sevices and warranty.
+- find out what is different about the company products compared to others.
+- details of company offers like services and warranty.
