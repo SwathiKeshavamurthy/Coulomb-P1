@@ -33,6 +33,7 @@
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
   - [Validation](#validation)
+  - [Responsiveness](#responsiveness)
 
 
 # Introduction
@@ -68,12 +69,10 @@ As a user I want to
 
 As the website and company owner I want to
 
-
 -  develop an internet presence for our business.
 - increase the number of local customers we serve - educate actual and potential and about our products, location, and business hours.
 - to give clients a way to get in touch with you so they can ask questions or make enquiries about the products.
 - to give some background information regarding the business website.
-
 
 ### As a general user of the website/customer 
 
@@ -136,6 +135,7 @@ Some text is taken from Google and is rephrased by the author.
 - The navigation bar is visible on all pages.
 - The company logo is located on the left side of the navigation bar, and as the user would expect, it links to the home page from every page on the website.
 - To let users know where they are on the website, the page link highlights when the page is active.
+![navbar](documentation/title-and-navbar.JPG)
 
 ### Footer
 
@@ -143,36 +143,45 @@ Some text is taken from Google and is rephrased by the author.
 - The left side has the 5-social media links lined in a horizontal row.
 - The right side are 2-links for app-download.
 - Below all these there is a disclaimer for copyright.
+![footer](documentation/footer.JPG)
 
 ### Hero Image
 
 - Home page features a hero image with text overlay and link for Products page.
 - The same Hero image is also visible on the Thankyou page.
+- ![image-hero](documentation/image-hero.JPG)
   
 ### Home Page
 
 - The hero image on the landing page has a brilliant, magnificent appearance to draw in users as soon as they land on the website. -
 - In order to elicit a favorable emotional response and motivate the user to stay on the website, the hero image also includes the name of the company and a slogan.
 - This page provides a brief overview of the company.
+- ![image-overlay](documentation/hero-overlay-text.JPG)
 
 ### About Us Page
 
 - A slogan at the start of the page.
+- ![about-us](documentation/slogan.JPG)
 - There are two sections on the "About" page. The first contains an introduction and general company history information.
  Short paragraphs and concise information are used throughout.
+- ![about-us](documentation/image-aboutus2.JPG)
 - It has an image to catch users' attention.
 - Additionally, the uses of the company's developed products are covered in the second section. For this reason, the COULOMB company outperforms all others.
+- ![about-us](documentation/image-aboutus.JPG)
 
 ### Products
 
 - A slogan at the start of the page.
 - Three products are available on the Products page in a row with images, that collapses to one column at the size of a mobile phone screen.
+- ![about-us](documentation/image-products.JPG)
 - Additionally, the page has a direct "Enquire Now" link that takes users to the form where they can fill out a request for more information about the products.
 
 ### Enquire Now
 
 - A slogan and image at the start of the page.
+- ![about-us](documentation/image-enquirenow1.JPG)
 - The Enquire Now page has 2 section, 1st section features a form for the user to full name, email address, products field set with 3 radio button options and a message (optional) with a submit button at the end.
+- ![about-us](documentation/image-enquirenow2.JPG)
 - 2nd section contains the Contact us details with company name, address, contact number and email. Below this there is iframe map for location.
 
 ### Thank You
@@ -181,6 +190,7 @@ Some text is taken from Google and is rephrased by the author.
 - In order to elicit a favorable emotional response and motivate the user to stay on the website, the hero image also includes the name of the company and a slogan.
 - This displays a message after submitting the enquire form.
 - In addition, this page has a navigation bar that leads to all other pages and a footer section with links to social media and app downloads.
+- ![about-us](documentation/image-thankyou.JPG)
 
 ## Future Features
 
@@ -223,3 +233,11 @@ Some text is taken from Google and is rephrased by the author.
  - [HTML Validator](https://validator.w3.org/) was run at several points during the project and small syntax errors identified were fixed. At the final stage no errors were found. But a warning for Google Font imports was found.
 - [CSS Validator](https://validator.w3.org/) was run several times during the project and small syntax errors like brackets closure which were corrected. At the time of submission the CSS code successfully passed the validator with no errors.
 - [Lighthouse in Chrome Developer Tools](https://en.wikipedia.org/wiki/Google_Lighthouse) was used to check performance.
+
+## Responsiveness
+
+Browser tests on Chrome, Mozilla, and Safari revealed no issues with the website.
+
+The website performed as expected across a wide range of screen sizes when tested on development tools on a variety of devices, including a Samsung S9 iPhone X , 2560px screens.
+The design process made use of the Chrome development tools to verify breakpoints and responsiveness. Accordingly adjustments were made.
+
