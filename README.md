@@ -1,10 +1,8 @@
 # <h1 align="center">COULOMB ![logo](documentation/readme-images/favicon-32x32.png) ev</h1>
 
-
 [view the live project HERE](https://swathikeshavamurthy.github.io/Coulomb-P1/)
 
 ![Am I Responsive Image](documentation/readme-images/amiresponsive.JPG)
-
 
 # Table of Contents
 - [COULOMB  ev](#coulomb--ev)
@@ -15,7 +13,7 @@
   - [User Goals](#user-goals)
   - [User Stories](#user-stories)
     - [As a company owner](#as-a-company-owner)
-    - [As a general user of the website/customer](#as-a-general-user-of-the-websitecustomer)
+    - [As a general user](#as-a-general-user)
     - [As a new user I want to](#as-a-new-user-i-want-to)
 - [Design of the website](#design-of-the-website)
   - [Wireframes](#wireframes)
@@ -39,20 +37,28 @@
     - [Products](#products)
     - [Enquire Now](#enquire-now)
     - [Thank You](#thank-you)
-  - [Fure Features](#fure-features)
+  - [Future Features](#future-features)
 - [Languages Used](#languages-used)
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
   - [Validation](#validation)
-    - [HTML Validator was run at several points during the project and small syntax errors identified were fixed. At the final stage no errors were found. But a warning for Google Font imports was found.](#html-validator-was-run-at-several-points-during-the-project-and-small-syntax-errors-identified-were-fixed-at-the-final-stage-no-errors-were-found-but-a-warning-for-google-font-imports-was-found)
-      - [Home Page results](#home-page-results)
-        - [Full Validation](#full-validation)
-    - [](#)
-  - [Responsiveness](#responsiveness)
+    - [HTML Validator](#html-validator)
+    - [CSS Validator](#css-validator)
+    - [Lighthouse in Chrome Developer Tools](#lighthouse-in-chrome-developer-tools)
+  - [Responsiveness and Browser Compatibility](#responsiveness-and-browser-compatibility)
+  - [User Stories Testing](#user-stories-testing)
+  - [Manual Testing](#manual-testing)
+- [Deployment](#deployment)
+  - [The way this website was set up](#the-way-this-website-was-set-up)
+- [Bugs](#bugs)
+  - [Known Bugs](#known-bugs)
+- [Credits](#credits)
+  - [Code](#code)
+  - [Media](#media)
 
 # Introduction
 
-This is a website for COULOMB ev, a fictional new Electric Chargers for Electric Vehicles exclusively designed for home. 
+This is a website for COULOMB ev, a fictional new Electric Chargers for Electric Vehicles exclusively designed for home.
 It is one of the fastest HOME CHARGING appliances to recharge your electric vehicle . With our strong COULOMB charging station, you can power your electric vehicle for as little as 3.5Kilowatt at230V 16A residential power.This makes sure that your electric vehicle is fully charged for the next day, ready for use.
 
 The website which specialises the purpose of the website is to establish an online presence for the company as the main source of information for customers about the line-of-work.
@@ -83,11 +89,11 @@ As a user I want to
 As the website and company owner I want to
 
 - develop an internet presence for our business.
-- increase the number of local customers we serve - educate actual and potential and about our products, location, and business hours.
-- to give clients a way to get in touch with you so they can ask questions or make enquiries about the products.
-- to give some background information regarding the business website.
+- increase the number of local customers we serve - educate actual and potential and about our products, location, and company hours.
+- to give customers a way to get in touch with us so they can ask questions or make enquiries about the products.
+- to give some background information regarding the company website.
 
-### As a general user of the website/customer
+### As a general user
 
 - find out the location, opening hours and contact information.
 - information and uses of the products.
@@ -96,7 +102,7 @@ As the website and company owner I want to
 ### As a new user I want to
 
 - find out what is different about the company products compared to others.
-- details of company offers like services and warranty.
+- details of company offers like products details with visual experience, services and warranty.
   
 # Design of the website
 
@@ -108,7 +114,6 @@ Along with this a Thank you page will open after submitting in the enquire form.
 
 Users can enquire about the products and get installed  using the form on the enquire now page.
 
-
 The company's motto is to "increase Electric Vehicles (EV) chargers accessibility to all at very cheap and quality product".
 The layout is kept uncomplicated and tidy and has been used minimalist colour scheme and design.
 
@@ -118,7 +123,7 @@ Here are the first wireframes from the design stage. Every design element was pu
 
 ### Home Page Wireframes
 
-![laptop-home](documentation/wireframes/wf-laptop-home.JPG) [tab-home](documentation/wireframes/wf-tab-home.JPG) ![smartphone-home](documentation/wireframes/wf-sp-home.JPG)
+![laptop-home](documentation/wireframes/wf-laptop-home.JPG) ![tab-home](documentation/wireframes/wf-tab-home.JPG) ![smartphone-home](documentation/wireframes/wf-sp-home.JPG)
 
 ### AboutUs page Wireframes
 
@@ -221,24 +226,24 @@ Some text is taken from Google and is rephrased by the author.
 
 ### Thank You
 
-- The hero image on the thankyou page has a brilliant, magnificent appearance to draw in users as soon as they land on the website. 
+- The hero image on the thankyou page has a brilliant, magnificent appearance to draw in users as soon as they land on the website.
 - In order to elicit a favorable emotional response and motivate the user to stay on the website, the hero image also includes the name of the company and a slogan.
 - This displays a message after submitting the enquire form.
 - In addition, this page has a navigation bar that leads to all other pages and a footer section with links to social media and app downloads.
 ![thankyou](documentation/readme-images/image-thankyou.JPG)
 
-## Fure Features
+## Future Features
 
 - A payment facility for users to order and pay for their product.
-- Links to customer service and direct installation.
+- Links to 24/7 customer service and direct installation.
 - Electric charger parts replacements facility.
-- Customer reviews page and company future products plans blog page.
+- Customer reviews page and company future products plans on a direct blog page.
 - Checkbox to subscribe to a newsletter for information about events and offers as the business expands.
 
 # Languages Used
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) (Hypertext Markup Language) or HTML, was used to design the basic website
-- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) 
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 (Cascading Style Sheets) or CSS, was used to style the website and improve its user interface.
 
 # Technologies Used
@@ -265,23 +270,101 @@ Some text is taken from Google and is rephrased by the author.
 
 ## Validation
 
- ### [HTML Validator](https://validator.w3.org/) was run at several points during the project and small syntax errors identified were fixed. At the final stage no errors were found. But a warning for Google Font imports was found.
+### HTML Validator
 
-#### Home Page results
-![index.html](documentation/validation-results/aboutus.html-validator.JPG)
+[HTML Validator](https://validator.w3.org/) was run at several points during the project and small syntax errors identified were fixed. At the final stage no errors were found. But a warning for Google Font imports was found.
 
-##### Full Validation
-[Home Page](documentation/validation-results/index.html Showing results for contents of text-input area - Nu Html Checker.pdf)
+- Home Page results
+![index.html](documentation/validation-results/index.html-validator.JPG)
 
-###
+- About Us page results
+![aboutus.html](documentation/validation-results/aboutus.html-validator.JPG)
 
-- [CSS Validator](https://validator.w3.org/) was run several times during the project and small syntax errors like brackets closure which were corrected. At the time of submission the CSS code successfully passed the validator with no errors.
-- [Lighthouse in Chrome Developer Tools](https://en.wikipedia.org/wiki/Google_Lighthouse) was used to check performance.
+- Products Page results
+![products.html](documentation/validation-results/products.html-validator.JPG)
 
-## Responsiveness
+- Enquire Now Page results
+![enquirenow.html](documentation/validation-results/enquirenow.html-validator.JPG)
 
-Browser tests on Chrome, Mozilla, and Microsoft Edge revealed no issues with the website.
+- Thank You Page results
+![thankyou.html](documentation/validation-results/thankyou.html-validator.JPG)
+
+- Full Validation results are here
+
+Home Page Results <a href="https://github.com/SwathiKeshavamurthy/Coulomb-P1/blob/main/documentation/validation-results/index.html%20Showing%20results%20for%20contents%20of%20text-input%20area%20-%20Nu%20Html%20Checker.pdf" target="_blank"> CLICK HERE </a>
+
+Products Page Results <a href="https://github.com/SwathiKeshavamurthy/Coulomb-P1/blob/main/documentation/validation-results/products.html%20Showing%20results%20for%20contents%20of%20text-input%20area%20-%20Nu%20Html%20Checker.pdf" target="_blank"> CLICK HERE </a>
+
+AboutUs Page Results <a href="https://github.com/SwathiKeshavamurthy/Coulomb-P1/blob/main/documentation/validation-results/aboutus.html%20Showing%20results%20for%20contents%20of%20text-input%20area%20-%20Nu%20Html%20Checker.pdf" target="_blank"> CLICK HERE </a>
+
+EnquireNow Page Results <a href="https://github.com/SwathiKeshavamurthy/Coulomb-P1/blob/main/documentation/validation-results/enquirenow.html%20Showing%20results%20for%20contents%20of%20text-input%20area%20-%20Nu%20Html%20Checker.pdf" target="_blank"> CLICK HERE </a>
+
+ThankYou Page Results <a href="https://github.com/SwathiKeshavamurthy/Coulomb-P1/blob/main/documentation/validation-results/thankyou.html%20Showing%20results%20for%20contents%20of%20text-input%20area%20-%20Nu%20Html%20Checker.pdf" target="_blank"> CLICK HERE </a>
+
+### CSS Validator
+
+ [CSS Validator](https://validator.w3.org/) was run several times during the project and small syntax errors like brackets closure which were corrected. At the time of submission the CSS code successfully passed the validator with no errors.
+![stylesheet.css](documentation/validation-results/css-validator.JPG)
+
+- Full Validation result is here
+
+CSS- StyleSheet Page Result <a href="https://github.com/SwathiKeshavamurthy/Coulomb-P1/blob/main/documentation/validation-results/W3C%20CSS%20Validator%20results%20for%20TextArea%20(CSS%20level%203%20%2B%20SVG).pdf" target="_blank"> CLICK HERE </a>
+
+### Lighthouse in Chrome Developer Tools
+
+[Lighthouse in Chrome Developer Tools](https://en.wikipedia.org/wiki/Google_Lighthouse) was used to check performance.
+
+## Responsiveness and Browser Compatibility
+
+Browser tests on Chrome, Firefox, and Microsoft Edge revealed no issues with the website.
 
 The website performed as expected across a wide range of screen sizes when tested on development tools on a variety of devices, including a Samsung S9, Nexus 10, Nest Hub, iPhone X , 2560px screens.
 The design process made use of the Chrome development tools to verify breakpoints and responsiveness. Accordingly adjustments were made.
 
+## User Stories Testing
+
+These above features support the User Stories in the [User Goals and Stories (UX)](#user-goals-and-stories-ux) and [User Stories](#user-stories).
+
+## Manual Testing
+
+After verifying that each page's link worked, the form was successfully submitted to thankyou.html.
+
+- Navigation bar- Menu links
+- Footer- Social Media and Download App links
+- See Our Products button on Home page
+- Enquire Now button on Products page
+- Form on Enquire Now page - 3 fields (Full Name, Email Address, Products) has be set required attribute. The form will not submit without the 3 fields being completed.
+- Submit button on Enquire Now page takes to Thank You page
+- Contact Us on Enqire Now page has Google Maps for location
+
+All the above tests were tested manually on all screens.
+
+# Deployment
+
+## The way this website was set up
+
+- Log in to [Github](https://github.com/)
+- Open the Settings tab in the GitHub repository, then select Pages from the menu on the left.
+- The page will automatically refresh with a detailed ribbon display to indicate the successful deployment.
+- Any changes pushed to the master branch will take effect on the live project. - Choose the Master Branch from the drop-down menu in the source section.
+
+  The live link is available at -[COULOMB](https://swathikeshavamurthy.github.io/Coulomb-P1/index.html)
+  
+# Bugs
+  
+## Known Bugs
+
+- The large images on every page were not zoomed to the best position on small screens.
+- It was difficult to find good quality images of Electric Chargers. As EV's era has started now. Hence few images on larger screens look with low resolutions.
+
+# Credits
+
+## Code
+
+- Code for Google Maps: [hubspot](https://blog.hubspot.com/website/how-to-embed-google-map-in-html)
+- Code for Unordered list to place side by side: [stackoverflow](https://stackoverflow.com/questions/6472178/two-unordered-list-side-by-side)
+- Code for round buttons: [W3CSS](https://www.w3schools.com/howto/howto_css_round_buttons.asp)
+  
+## Media
+
+- Images downloaded from [Pexels](https://www.pexels.com/), [Unsplah](https://unsplash.com/), []()
