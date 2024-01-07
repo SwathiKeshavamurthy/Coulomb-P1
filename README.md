@@ -55,6 +55,8 @@
 - [Credits](#credits)
   - [Code](#code)
   - [Media](#media)
+  - [Others](#others)
+  - [Acknowledgments](#acknowledgments)
 
 # Introduction
 
@@ -367,4 +369,15 @@ All the above tests were tested manually on all screens.
   
 ## Media
 
-- Images downloaded from [Pexels](https://www.pexels.com/), [Unsplah](https://unsplash.com/), []()
+- Images downloaded from [Pexels](https://www.pexels.com/), [Unsplash](https://unsplash.com/), [iStock](https://www.istockphoto.com)  and [Adobestock](https://stock.adobe.com/de/)
+
+## Others
+
+- Reference code from [Love Running](https://code-institute-solutions.github.io/love-running/)
+- README formats from [Sourdough Bakes](https://github.com/siobhanlgorman/Sourdough-Bakes/blob/master/README.md) and [THRIVE Juices and Smoothies](https://github.com/elainebroche-dev/ms1-thrive/blob/master/README.md)
+- Google for website text [Google](https://www.google.com/)
+
+## Acknowledgments
+
+- I am grateful to my Code Institute mentor Jack Wachira for his insightful counsel and constructive criticism regarding the project's planning and implementation.
+- Thanks to Kristyna, Cohort facilitator at Code Institute and gave infromation about README references and depth of the project timelines.
