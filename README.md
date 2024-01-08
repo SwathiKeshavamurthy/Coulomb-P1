@@ -350,7 +350,7 @@ All the above tests were tested manually on all screens.
 - The page will automatically refresh with a detailed ribbon display to indicate the successful deployment.
 - Any changes pushed to the master branch will take effect on the live project. - Choose the Master Branch from the drop-down menu in the source section.
 
-  The live link is available at -[COULOMB](https://swathikeshavamurthy.github.io/Coulomb-P1/index.html)
+  The live link is available at -[COULOMB ![logo](documentation/readme-images/favicon-32x32.png) ev](https://swathikeshavamurthy.github.io/Coulomb-P1/index.html)
   
 # Bugs
   
@@ -380,4 +380,4 @@ All the above tests were tested manually on all screens.
 ## Acknowledgments
 
 - I am grateful to my Code Institute mentor Jack Wachira for his insightful counsel and constructive criticism regarding the project's planning and implementation.
-- Thanks to Kristyna, Cohort facilitator at Code Institute and gave infromation about README references and depth of the project timelines.
+- Thanks to Kristyna, Cohort facilitator at Code Institute how gave infromation about README references and depth of the project timelines.
