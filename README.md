@@ -358,6 +358,7 @@ All the above tests were tested manually on all screens.
 
 - The large images on every page were not zoomed to the best position on small screens.
 - It was difficult to find good quality images of Electric Chargers. As EV's era has started now. Hence few images on larger screens look with low resolutions.
+- I tried to center the Enquire (button) on Products page, but it didn't work. Even my mentor tried. ![button-screenshot](documentation/readme-images/button.JPG)
 
 # Credits
 
@@ -373,11 +374,11 @@ All the above tests were tested manually on all screens.
 
 ## Others
 
-- Reference code from [Love Running](https://code-institute-solutions.github.io/love-running/)
-- README formats from [Sourdough Bakes](https://github.com/siobhanlgorman/Sourdough-Bakes/blob/master/README.md) and [THRIVE Juices and Smoothies](https://github.com/elainebroche-dev/ms1-thrive/blob/master/README.md)
-- Google for website text [Google](https://www.google.com/)
+- Reference code and README formats from [Love Running](https://code-institute-solutions.github.io/love-running/).
+- (:roots (section for colors in style.css)) I learned it from  [THRIVE Juices and Smoothies](https://github.com/elainebroche-dev/ms1-thrive/blob/master/assets/css/style.css) and try to implement it with help of [Using CSS Website](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+- Used [Google](https://www.google.com/) for website text.
 
 ## Acknowledgments
 
-- I am grateful to my Code Institute mentor Jack Wachira for his insightful counsel and constructive criticism regarding the project's planning and implementation.
+- I am grateful to my Code Institute mentor Jack Wachira for suggesting ThankYou page implementation and for his insightful counsel and constructive criticism regarding the project's planning and implementation. 
 - Thanks to Kristyna, Cohort facilitator at Code Institute how gave infromation about README references and depth of the project timelines.
