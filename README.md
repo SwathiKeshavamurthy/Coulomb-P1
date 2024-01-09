@@ -121,7 +121,7 @@ The layout is kept uncomplicated and tidy and has been used minimalist colour sc
 
 ## Wireframes
 
-Here are the first wireframes from the design stage. Every design element was put into practice with the help of [Balsamiq Wireframes](https://balsamiq.com/wireframes/).
+Here are the first wireframes from the design stage. Every design element was put into practice with the help of [Balsamiq Wireframes](https://balsamiq.com/wireframes/)
 
 ### Home Page Wireframes
 
